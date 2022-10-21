@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 46e10ac01a3e5f04399be9a930538300
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - highlightMaterial: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
+  - originalMaterial: {fileID: 2100000, guid: b00ee421f23cc0144839f9e6dae4a080, type: 2}
+  - grabMaterial: {fileID: 2100000, guid: b637f3c62c0aeae478c9d4074bff96eb, type: 2}
+  - shape: {instanceID: 0}
+  - SND_FREEZE: {fileID: 8300000, guid: 7371b716d1551a245b9667c182a028bd, type: 3}
+  - SND_UNFREEZE: {fileID: 8300000, guid: a05bebaeaf665814c9ab32a2f36db046, type: 3}
+  - SND_GLUE: {fileID: 8300000, guid: a744d50007ee57145ae4179672ff8069, type: 3}
+  - SND_UNGLUE: {fileID: 8300000, guid: 702aaf39ae5af6a4693af745b33a9039, type: 3}
+  - SND_SPAWN: {fileID: 8300000, guid: a538bb0f25f4d394f95eca736d2c298e, type: 3}
+  - Carrier: {fileID: 723159775743438952, guid: 88dd8468b5b216d4c8acf601448149b2, type: 3}
+  - Utility: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

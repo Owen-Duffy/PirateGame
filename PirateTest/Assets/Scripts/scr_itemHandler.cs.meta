@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e00dc9a33f55dff4787bce945ac983e5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SND_CONNECT: {fileID: 8300000, guid: 76d452ebca3775d4090587bce9729868, type: 3}
+  - SND_DISCONNECT: {fileID: 8300000, guid: 91d7549aa0a3ca242a07237901e688ef, type: 3}
+  - SND_REMOVE: {fileID: 8300000, guid: 13fffc092f7791b4d862708491f77852, type: 3}
+  - Utility: {instanceID: 0}
+  - RB: {instanceID: 0}
+  - child: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
