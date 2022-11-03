@@ -41,6 +41,7 @@ public class scr_enemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        player = GameObject.Find("Player").transform;
         //Check for sight and attack range
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, WhatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, WhatIsPlayer);
@@ -67,6 +68,7 @@ public class scr_enemyAI : MonoBehaviour
 
     private void SearchWalkPoint()
     {
+        Debug.Log("Search Walk Point");
         //Calculates random point in range
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
@@ -78,10 +80,12 @@ public class scr_enemyAI : MonoBehaviour
     }
     private void ChasePlayer()
     {
+        Debug.Log("Chase Player");
         agent.SetDestination(player.position);
     }
     private void AttackPlayer()
     {
+        Debug.Log("Attack Player");
         agent.SetDestination(transform.position);
 
         transform.LookAt(player);

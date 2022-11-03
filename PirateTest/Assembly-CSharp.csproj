@@ -56,13 +56,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\scr_utility.cs" />
-    <Compile Include="Assets\Scripts\scr_camera.cs" />
     <Compile Include="Assets\Scripts\Outline.cs" />
-    <Compile Include="Assets\Scripts\scr_movement.cs" />
     <Compile Include="Assets\Scripts\scr_itemPicker.cs" />
     <Compile Include="Assets\Scripts\scr_itemHandler.cs" />
+    <Compile Include="Assets\Scripts\scr_movement.cs" />
+    <Compile Include="Assets\Scripts\scr_projectile.cs" />
     <Compile Include="Assets\Scripts\scr_enemyAI.cs" />
+    <Compile Include="Assets\Scripts\scr_camera.cs" />
+    <Compile Include="Assets\Scripts\scr_utility.cs" />
+    <Compile Include="Assets\Scripts\scr_gunSystem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -788,13 +790,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{04DB828E-2551-FE66-E314-9F1C35707266}</Project>
-      <Name>NavMeshComponents</Name>
-    </ProjectReference>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{F608D9E9-D780-C1A0-FC79-5D9CC42919E4}</Project>
       <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{04DB828E-2551-FE66-E314-9F1C35707266}</Project>
+      <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
